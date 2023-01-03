@@ -1,0 +1,181 @@
+
+
+#header{
+        z-index: 999;       
+}
+#navbar{
+    width: 100vw;
+    position: relative;
+}
+#navbar.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#navbarcollapse{
+    height: 50px;
+
+}
+.navbarOffsetMargin {
+        padding-top: 45px;
+      }
+.topnav img{
+    display: flex;
+    padding-right: 1vw;
+    float: left;
+    gap: 55px;
+    height: 6vh;
+    width: auto;
+}
+.topnav{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #cfb5f4;
+    border: #cfb5f4;
+    border-style: outset;
+    border-radius: 20px;
+    width: fit-content;
+    margin: auto;
+    padding: .5vh;
+    font-size: 24px;
+    gap: 15px;
+    
+}
+.nav1{
+    display: flex; 
+    border-style: inset;
+    border-color: #d2faff;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+.active{
+    display: flex; 
+    border-style: inset;
+    border-color: #d2faff;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+.nav2{
+    display: flex; 
+    border-style: inset;
+    border-color: #d2faff;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+.nav3{
+    display: flex; 
+    border-style: inset;
+    border-color: #d2faff;
+    border-radius: 20px;
+    background-color: #cfb5f4;
+    padding: 10px;
+
+}
+.roadmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+}
+#roadmapimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    margin-left: 10vw;
+    margin-top: 25px;
+}
+#roadmapimg img{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90vw;
+}
+
+.footer{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    background-color: #8a81cc;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #d2faff;
+    width: 100vw;
+    margin: 0;
+    overflow: auto;
+    
+}
+@media screen and (max-width: 768px) {
+    .body{
+        width: 100vw;
+        position:fixed;
+    }
+    #header{
+        width: 100vw;
+        height: auto;
+    }
+    #navbar{
+        width: 100vw;
+        height: auto;
+    }
+    .topnav{
+        width: 100vw;
+        height: auto;
+        border-style: none;
+        border-radius: 0px;
+        padding: 0%;
+        gap: 5px;
+    }
+    .topnav img{
+        padding-right: 1vw;
+    }
+    .nav1{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        border-radius: 0px;
+        padding: 0px;
+        font-size: 18px;
+    
+    }
+    .active{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        border-radius: 0px;
+        padding: 0px;
+        font-size: 18px;
+    
+    }
+    .nav2{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        border-radius: 0px;
+        padding: 0px;
+        font-size: 18px;
+    
+    }
+    .nav3{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        border-radius: 0px;
+        padding: 0px;
+        font-size: 18px;
+    
+    }
+}
