@@ -1,0 +1,102 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    background-color: #ffecd2;
+   }
+
+/* fonts */
+@font-face {
+   font-family: 'dynapuffregular';
+   src: url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff2'),
+        url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+.section1 { 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    }
+    #backgroundimg{
+        display: flex;
+        height: max-content;
+        width: 100vw;
+    }
+    #welcome{
+        position: absolute;
+        font-family: 'dynapuffregular' ;
+        top: 22vh;
+        right: 28vw;
+        font-size: 32px;
+    }
+    .moreBtn{
+        display: block;
+        position: absolute;
+        top: 30vh;
+        right: 22.5vw;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffbffc;
+        color: #395ba9;
+        font-size: 22px;
+        font-family: 'dynapuffregular';
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+        border: 2px solid rgb(28, 110, 164); 
+    }
+    .moreBtn:hover{
+        background-color: #bf87ea;
+        color: #ffbffc;
+    }
+    /* For mobile phones: */
+@media screen and (max-width: 768px) {
+    #backgroundimg{
+        display: flex;
+        height: max-content;
+        width: 100vw;
+        
+    }
+    .section1 { 
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        
+        }
+        #backgroundimg{
+            display: flex;
+            height: max-content;
+            width: 100vw;
+        }
+        #welcome{
+            position: absolute;
+            top: 22vh;
+            right: 7.5vw;
+            font-size: 32px;
+            font-family: 'dynapuffregular';
+        }
+        .moreBtn{
+            display: flex;
+            position: absolute;
+            top: 30vh;
+           margin-left: 55vw;
+            transform: translate(-50%, -50%);
+            background-color: #ffbffc;
+            color: #395ba9;
+            font-size: 22px;
+            font-family: 'dynapuffregular';
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+            border: 2px solid rgb(28, 110, 164); 
+        }
+        .moreBtn:hover{
+            background-color: #bf87ea;
+            color: #ffbffc;
+        }
+}
