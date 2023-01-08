@@ -1,0 +1,116 @@
+* { 
+    margin: 0; 
+    padding: 0;
+   }
+    /* fonts */
+@font-face {
+    font-family: 'dynapuffregular';
+    src: url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff2'),
+         url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}.section1 { 
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-image: linear-gradient(to top, rgba(239,239,239,255), #df81dc);
+    
+    }
+    #banner{
+        display: flex;
+        height: max-content;
+        width: 100vw;
+        
+       
+       
+    }.section2{
+        display: flex;
+        flex-direction: row;
+        font-size: 5vh;
+        justify-content: center;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        font-family: "dynapuffregular";
+        width: 100vw;
+    }
+     /* about */
+    .about{
+        display: flex;  
+        flex-basis: auto;
+        padding: 25px;
+        background-color: #c5c5ff;
+        height: 50vh;
+        width: 100vw;
+       
+        
+        
+    }
+    body{
+        background-color: 
+        #df81dc;
+        width: 100vw;
+        margin: 0;
+        overflow: auto;
+        font-family: "dynapuffregular";
+        
+    }
+    #abouttop{
+        display: flex;
+        width: 100vw;
+        margin-top: -4%;   
+    }
+    #aboutustext{
+        display: flex;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: fit-content;
+        flex-direction: column;
+        text-align: center;
+        color: whitesmoke;
+        font-family: "dynapuffregular";
+        font-size: 24px;
+    }
+    .buttons{
+        display:flex;
+        justify-content: space-evenly;
+        margin-top: 5%;
+      
+        
+    }
+    
+    .team{
+        display:flex;
+        background-color: #ffbffc;
+        color: #395ba9;
+        font-size: 22px;
+        font-family: 'dynapuffregular';
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+        border: 2px solid rgb(28, 110, 164); 
+    }
+    .team:hover{
+        background-color: #bf87ea;
+        color: #ffbffc;
+    }
+    
+    .roadmap{
+        display: flex;
+        background-color: #ffbffc;
+        color: #395ba9;
+        font-size: 22px;
+        font-family: 'dynapuffregular';
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+        border: 2px solid rgb(28, 110, 164); 
+    }
+    .roadmap:hover{
+        background-color: #bf87ea;
+        color: #ffbffc;
+    }
