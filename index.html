@@ -11,6 +11,25 @@
 
 
     <title>Welcome to Sweetsies</title>
+    <style>
+        @keyframes slideInLeft {
+          0% {
+            transform: translateX(-100%);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+       .section1 {
+          animation-duration: 2s;
+          animation-timing-function: ease-in-out;
+          animation-delay: 0s;
+          animation-iteration-count: 1;
+          animation-name: slideInLeft;
+          
+        }         
+      </style>
+          
     <link rel="stylesheet" href="css/landing.css">
 
 </head>
