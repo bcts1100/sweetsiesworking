@@ -1,0 +1,92 @@
+body{
+    opacity: 0;
+    transition: opacity 2s;
+   }
+* { 
+    margin: 0; 
+    padding: 0;
+   }
+ 
+    /* fonts */
+@font-face {
+    font-family: 'dynapuffregular';
+    src: url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff2'),
+         url('../dynapuff-variablefont_wdthwght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}.section1 { 
+    
+    width: 100vw;
+    background-image: linear-gradient(to top, rgba(239,239,239,255), #df81dc);
+    
+    }
+   .section1 #banner{
+        height: auto;
+        width: 100vw;
+        z-index: 3;
+ }
+
+   .section1 .welcome{
+    font-family: 'dynapuffregular';
+    font-size: 35px;
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   }
+  .section1 .starone {
+    
+        top: 100vh;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+       z-index: 1;
+  }
+   
+    
+    
+    .section1 .team{
+        position: absolute;
+        top: 100vh;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #ffbffc;
+        color: #395ba9;
+        font-size: 22px;
+        font-family: 'dynapuffregular';
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+        border: 2px solid rgb(28, 110, 164); 
+    }
+    .section1 .team:hover{
+        background-color: #bf87ea;
+        color: #ffbffc;
+    }
+    
+   .section1  .roadmap{
+    position: absolute;
+    top: 100vh;
+    right: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+        background-color: #ffbffc;
+        color: #395ba9;
+        font-size: 22px;
+        font-family: 'dynapuffregular';
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 8px;
+        box-shadow: rgba(95, 0, 175, 0.8) 0px 4px 0px 0px; 
+        border: 2px solid rgb(28, 110, 164); 
+    }
+   .section1 .roadmap:hover{
+        background-color: #bf87ea;
+        color: #ffbffc;
+    }

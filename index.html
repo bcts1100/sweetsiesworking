@@ -11,6 +11,8 @@
 
 <meta http-equiv="Page-Enter" content="revealTrans(Duration=**,Transition=?)">
     <title>Welcome to Sweetsies</title>
+    <link rel="stylesheet" href="css/landing.css">
+    <script src="js/index.js"></script>
     <style>
         @keyframes slideInLeft {
           0% {
@@ -21,7 +23,7 @@
           }
         }
        .section1 {
-          animation-duration: 1.5s;
+          animation-duration: 2s;
           animation-timing-function: ease-in-out;
           animation-delay: 0s;
           animation-iteration-count: 1;
@@ -44,9 +46,6 @@
             }
         }
     </style>
-          
-    <link rel="stylesheet" href="css/landing.css">
-    <script src="js/index.js"></script>
 </head>
 <body>
     <div class="section1">
@@ -57,6 +56,21 @@
     </div>
     <div class="section3>">
         <button class="moreBtn" onclick="window.location.href='pages/main.html'">Enter Sweetsieverse</button>
-    
+       
+        <style>
+            body {
+                animation: fadeOutAnimation ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+            }
+            @keyframes fadeOutAnimation {
+                0% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        </style>
     </div>
 </body> 
