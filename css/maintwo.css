@@ -22,9 +22,9 @@ body{
     
     }
    .section1 #banner{
-        height: auto;
+        height: 100vh;
         width: 100vw;
-        z-index: 3;
+        z-index: 4;
  }
 
    .section1 .welcome{
@@ -36,20 +36,25 @@ body{
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
    }
-  .section1 .starone {
-    
-        top: 100vh;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-       z-index: 1;
+  .overlay1 {
+       position: absolute;     
+       left:30vw;
+       top: 20vh;
+       z-index: 3;
+        
   }
-   
+  .overlay2 {
+    position: absolute;     
+    left:60vw;
+    top: 20vh;
+    z-index: 3;
+     
+}
     
     
     .section1 .team{
         position: absolute;
-        top: 100vh;
+        top: 90vh;
         left: 25%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
@@ -71,7 +76,7 @@ body{
     
    .section1  .roadmap{
     position: absolute;
-    top: 100vh;
+    top: 90vh;
     right: 25%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
